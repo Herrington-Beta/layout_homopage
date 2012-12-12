@@ -1,0 +1,486 @@
+/* style.css */
+
+/*
+色彩メモ
+・背景色#EFEFEF
+・濃青#003580
+・薄青#2EA7E0
+・濃グレー#383635
+・薄グレー#898989
+*/
+
+
+/* 基本設定 */
+body{
+	color: #000000;
+	background-color: #EFEFEF;
+	 background-image: url("gra/back.jpg");
+	background-repeat: repeat;
+	margin: 0px;
+	padding: 0px;
+	font-family: "メイリオ";
+}
+
+/* 上部の薄青のバーの描画 */
+.bar1{
+	display: block;
+	width: 100%;
+	height: 95px;
+	background-color: #2EA7E0;
+	position: absolute;
+	top: 0px;
+	left: 0px;	
+}
+
+/* 上部の濃青のバーの描画 */
+.bar2{
+	display: block;
+	width: 100%;
+	height: 40px;
+	background-color: #003580;
+	position: absolute;
+	top: 95px;
+	left: 0px;
+}
+
+/* 上部メニュー全体 */
+.head_menu{
+	display: block;
+	width: 300px;
+	height: 135px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 0 auto;
+}
+
+/* ロゴの表示 */
+.logo{
+	display: inline;
+	width: 95px;
+	height: 95px;
+	position: absolute;
+	top: 5px;
+	left: 30px;
+}
+
+/* "Internet Club"の表示 */
+.ic{
+	display: inline;
+	width: 180px;
+	height: 40px;
+	position: absolute;
+	top: 95px;
+	left: 30px;
+	padding: 8px;
+	color: #FFFFFF;
+	font-size: 22px;
+}
+
+/* 長方形sitemapの表示 */
+a.bar2_1{
+	display: inline;
+	background-color: #003580;
+	width: 75px;
+	height: 40px;
+	position: absolute;
+	top: 95px;
+	left: 180px;
+	text-decoration: none;
+}
+
+/* sitemapのマウスオーバー時の設定 */
+a.bar2_1:hover{
+	background-color: #002570;
+}
+
+/* 長方形archiveの表示 */
+a.bar2_2{
+	display: inline;
+	background-color: #003580;
+	width: 75px;
+	height: 40px;
+	position: absolute;
+	top: 95px;
+	left: 255px;
+	text-decoration: none;
+}
+
+/* archiveのマウスオーバー時の設定 */
+a.bar2_2:hover{
+	background-color: #002570;
+}
+
+/* 長方形tagの表示 */
+a.bar2_3{
+	display: inline;
+	background-color: #003580;
+	width: 75px;
+	height: 40px;
+	position: absolute;
+	top: 95px;
+	left: 330px;
+	text-decoration: none;
+}
+
+/* tagのマウスオーバー時の設定 */
+a.bar2_3:hover{
+	background-color: #002570;
+}
+
+/* 長方形contactの表示 */
+a.bar2_4{
+	display: inline;
+	background-color: #003580;
+	width: 75px;
+	height: 40px;
+	position: absolute;
+	top: 95px;
+	left: 405px;
+	text-decoration: none;
+}
+
+/* contactのマウスオーバー時の設定 */
+a.bar2_4:hover{
+	background-color: #002570;
+}
+
+/* 上部メニューの文字列の表示の設定 */
+.bar2_link{
+	padding: 10px;
+	color: #898989;
+}
+
+/* 左側メニュー全体の表示 */
+.menu{
+	display: block;
+	width: 200px;
+	height: auto;
+	position: absolute;
+	top: 150px
+	left: 0px;
+}
+
+/* 長方形menuの表示 */
+.menu_bar{
+	display: block;
+	background-color: #383635;
+	width: 200px;
+	height: 40px;
+	position: absolute;
+	top: 150px;
+	left: 0px;
+}
+
+/* 裸だったら何が悪い */
+.boku_manzoku{
+	display: block;
+	background-color: #898989;
+	width: 5px;
+	height: 200px;
+	position: absolute;
+	top: 190px;
+	left: 0px;
+}
+
+/* 長方形aboutの表示 */
+a.menu_bar1{
+	display: block;
+	background-color: #FFFFFF;
+	width: 195px;
+	height: 40px;
+	position: absolute;
+	top: 190px;
+	left: 5px;
+	text-decoration: none;
+}
+
+/* aboutのマウスオーバー時の設定 */
+a.menu_bar1:hover{
+	background-color: #898989;
+}
+
+/* 長方形categoriesの表示 */
+a.menu_bar2{
+	display: block;
+	background-color: #FFFFFF;
+	width: 195px;
+	height: 40px;
+	position: absolute;
+	top: 230px;
+	left: 5px;
+	text-decoration: none;
+}
+
+/* categoriesのマウスオーバー時の設定 */
+a.menu_bar2:hover{
+	background-color: #898989;
+}
+
+/* 長方形projectsの表示 */
+a.menu_bar3{
+	display: block;
+	background-color: #FFFFFF;
+	width: 195px;
+	height: 40px;
+	position: absolute;
+	top: 270px;
+	left: 5px;
+	text-decoration: none;
+}
+
+/* projectsのマウスオーバー時の設定 */
+a.menu_bar3:hover{
+	background-color: #898989;
+}
+
+/* 長方形feedの表示 */
+a.menu_bar4{
+	display: block;
+	background-color: #FFFFFF;
+	width: 195px;
+	height: 40px;
+	position: absolute;
+	top: 310px;
+	left: 5px;
+	text-decoration: none;
+}
+
+/* feedのマウスオーバー時の設定 */
+a.menu_bar4:hover{
+	background-color: #898989;
+}
+
+/* 長方形profileの表示 */
+a.menu_bar5{
+	display: block;
+	background-color: #FFFFFF;
+	width: 195px;
+	height: 40px;
+	position: absolute;
+	top: 350px;
+	left: 5px;
+	text-decoration: none;
+}
+
+/* profileのマウスオーバー時の設定 */
+a.menu_bar5:hover{
+	background-color: #898989;
+}
+
+/* 文字列"menu"の表示の設定 */
+.menu_name_a{
+	padding: 10px;
+	position: absolute;
+	top: 0px;
+	left: 25px;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+/* 文字列"menu"以外の表示の設定 */
+.menu_name_b{
+	padding: 10px;
+	position: absolute;
+	top: 0px;
+	left: 25px;
+	color: #444444; /* ※１ */
+	font-size: 20px;
+}
+
+/*
+※１について
+文字列と長方形を別々に設定してるので、
+長方形をホバーすると同時に文字色を変化させることができませんでした。
+文字列をホバーした時に文字色を変化させる設定にすると不自然なので……。
+誰かHTMLの書き換えを含め設定をよろしくオナシャス！
+*/
+
+
+/* 記事全体の表示 */
+.post{
+	display: block;
+	width: 640px;
+	height: auto;
+	position: relative;
+	top: 150px;
+	left: 220px;
+}
+
+/* タイトル背景の長方形の表示 */
+.title_bar{
+	display: block;
+	background-color: #000000;
+	width: 640px;
+	height: 40px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+/* タイトルの文字列の表示の設定 */
+.title_name{
+	padding: 12px;
+	color: #FFFFFF;
+}
+
+/* 記事本文の背景の表示 */
+.text_back{
+	display: block;
+	background-color: #FFFFFF;
+	width: 640px;
+	height: auto;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+}
+
+/* 記事本文の文字列の設定 */
+.text{
+	padding: 20px 45px;
+	color: #000000;
+}
+
+/* 長方形readmoreの表示 */
+a.read_more{
+	display: block;
+	border-width: 1px;
+	border-color: #383635;
+	background-color: #EFEFEF;
+	width: 100px;
+	height: 30px;
+	position: absolute;
+	bottom: 45px;
+	right: 20px;
+}
+
+/* 青いバーの表示 */
+.blue_box{
+	display: block;
+	background-color: #2EA7E0;
+	width: 5px;
+	height: 30px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+/* 文字列"readmore"の表示の設定 */
+.rm_text{
+	padding: 2px;
+	color: #898989;
+	font-size: 16px;
+	position: absolute;
+	top: 5px;
+	left: 10px;
+}
+
+/* 記事情報の長方形の表示 */
+.post_info{
+	display: block;
+	background-color: #898989;
+	width: 640px;
+	height: 40px;
+	position: relative:
+	top: 80px;
+	left: 0px;
+}
+
+/* 記事のカテゴリーの文字列の表示の設定※２ */
+.category{
+	padding: 10px;
+	color: #003580;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+/* 記事の日付の文字列の表示の設定※２ */
+.date{
+	padding: 10px;
+	color: #003580;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+/*
+※２について
+とりあえず書いたけど、
+実際に使えるようにする方法はわかりません。
+設定オナシャス！
+*/
+
+/* 検索メニューの全体の表示 */
+.search{
+	display: block;
+	width: 180px;
+	height: auto;
+	position: absolute;
+	top: 150px;
+	left: 880px;
+}
+
+/* 長方形searchの表示 */
+.search_bar{
+	display: block;
+	background-color: #383635;
+	width: 180px;
+	height: 40px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+/* 文字列"search"の表示の設定 */
+.search_text{
+	padding: 10px;
+	color: #EFEFEF;
+	text-size: 20px;
+	position: absolute;
+	top: 0px;
+	left: 20px;
+}
+
+/* 検索窓の背景 */
+.search_back{
+	display: block;
+	background-color: #FFFFFF;
+	width: 180px;
+	height: 200px;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+}
+
+/* 検索窓の表示の設定 */
+.search_box{
+	padding: 20px;
+	color: #000000;
+	text-size: 10px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+
+/* 全体を中心に寄せたい */
+/*
+.misawa{
+	display: block;
+	width: 1060px;
+	height: auto;
+	margin: 0 auto;
+}
+*/
+
+
+/*
+最後に
+自分でHTML&CSSを編集していて、
+無駄な部分があるような気がするので、
+気になるようであれば、削除してください。
+具体的には"block"と"inline"の使い分けがよくわかってないとか……。
+
+Billy
+*/
